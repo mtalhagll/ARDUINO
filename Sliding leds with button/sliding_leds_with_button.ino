@@ -1,9 +1,8 @@
 /*
    MUSTAFA TALHA GÜLLÜ
 
-   Açıklama : Sağdan sola kayan ledler ile kolayca yapılabilen karaşimşek projesinin üstüne
-   sadece iki buton ekleyerek basitçe bir butona basınca ledin sağa diğer bir butona basınca
-   ledin sola kaymasını sağlayan bir devre ve kodu.
+   Açıklama : Sağdan sola kayan ledler ile kolayca yapılabilen karaşimşek projesinin üstüne sadece iki buton ekleyerek
+   basitçe bir butona basıldığında ledin sağa, diğer bir butona basıldığında ise ledin sola kaymasını sağlayan bir devre ve kodu.
    
 */
  
