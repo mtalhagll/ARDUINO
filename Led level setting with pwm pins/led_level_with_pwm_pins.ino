@@ -1,5 +1,9 @@
 /*
-   PWM pinlerini kullanarak led parlaklığı ayarlama
+   Mustafa Talha Güllü
+   
+   Açıklama : PWM pinlerini kullanarak sanki bir potansiyometre ile ledin parlaklığını ayarlıyormuş gibi 
+   ledi istediğimiz parlaklık şiddetinde yakabileceğiz. 
+
 */
 
 #define led 3                //ledi hangi pine bağladığımızı tanımlıyoruz
@@ -29,5 +33,17 @@ void loop()
     Serial.print("PWM LEVEL : ");
     Serial.println(pwm_level);                         //serial ekranda PWM değerinin hangi değerde olduğunu takip edebiliriz
     }
+   
+   
+   /*  
+       //İstenen parlaklıkta sabit kalmasını için
+        
+      analogWrite(led, 50);           // buradaki 50 ve 255 değerleri yerine 0-255 arası pwm değeri verilerek fark açık bir şekilde gözlenebilir.
+      delay(500);
+      analogWrite(led, 255);
+      delay(500);
+   
+   */
+   
  
 }
